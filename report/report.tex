@@ -70,9 +70,7 @@ This dataset structure strongly motivates several later design decisions: strati
 \end{figure}
 
 \section{Baseline Version And Its Limits}
-Pretrained AlexNet, an 80/20 stratified split, data augmentation, weighted sampling, and a two-stage optimization strategy. However, its reported training schedule remained relatively short, with only 2 warm-up epochs on the classifier head followed by 3 fine-tuning epochs on the full network.
-
-That earlier version produced solid results, reaching a validation accuracy of 0.7043, a top-5 accuracy of 0.8741, a macro-F1 of 0.6650, and a balanced accuracy of 0.6803. It also produced a Kaggle submission with public score 0.71918 and private score 0.71606.
+The first try produced solid results, reaching a validation accuracy of 0.7043, a top-5 accuracy of 0.8741, a macro-F1 of 0.6650, and a balanced accuracy of 0.6803. It also produced a Kaggle submission with public score 0.71918 and private score 0.71606.
 
 Even so, there were still clear improvement opportunities:
 \begin{itemize}[leftmargin=1.4em]
@@ -82,7 +80,6 @@ Even so, there were still clear improvement opportunities:
 \end{itemize}
 
 \section{Improvements}
-The current codebase introduces a set of concrete improvements that make the system easier to justify scientifically.
 
 \subsection{Longer Two-Stage Training Schedule}
 The most important modification concerns the number of epochs. The current configuration defines:
@@ -91,7 +88,7 @@ The most important modification concerns the number of epochs. The current confi
     \item \textbf{10 fine-tuning epochs} for the full model after unfreezing the feature extractor.
 \end{itemize}
 
-This means that the updated pipeline can train for up to 14 epochs in total. The purpose of this change is straightforward: the classifier head is given more time to adapt to the 315 target classes before the pretrained feature extractor is fully adjusted, and the fine-tuning stage is long enough to capture class-specific details of coins such as texture, relief, border shape, and inscriptions.
+This means that the pipeline can train for up to 14 epochs in total. The purpose of this change is: the classifier head is given more time to adapt to the 315 target classes before the pretrained feature extractor is fully adjusted, and the fine-tuning stage is long enough to capture class-specific details of coins such as texture, relief, border shape, and inscriptions.
 
 \subsection{Early Stopping To Control Overfitting}
 Increasing the maximum number of epochs is useful only if overfitting is controlled. The patience mechanism stops training when validation accuracy no longer improves for several consecutive epochs, which protects the run from unnecessary computation and reduces the risk of keeping a degraded model.
@@ -108,7 +105,7 @@ The logic is the following:
     \item the scheduler gradually reduces the learning rate inside each stage.
 \end{itemize}
 
-This differential learning-rate design is technically sound because the pretrained convolutional backbone should change more cautiously than the randomly reinitialized final classification layer.
+This differential learning-rate design is technically good because the pretrained convolutional backbone should change more cautiously than the randomly reinitialized final classification layer.
 
 \subsection{Data Augmentation}
 \begin{itemize}[leftmargin=1.4em]
@@ -118,13 +115,13 @@ This differential learning-rate design is technically sound because the pretrain
     \item ImageNet normalization matching pretrained AlexNet.
 \end{itemize}
 
-An important detail is that random erasing is currently disabled in the code. This is a meaningful adjustment rather than a regression: on natural-image tasks, random erasing often helps, but for coin recognition it can hide precisely the fine border details, symbols, and text that distinguish visually similar classes. Disabling it therefore reflects a more task-aware choice.
+The random erasing is currently disabled in the code. This is a meaningful adjustment rather than a regression: on natural-image tasks, random erasing often helps, but for coin recognition it can hide precisely the fine border details, symbols, and text that distinguish visually similar classes. Disabling it therefore reflects a more task-aware choice.
 
 \subsection{Handling Class Imbalance}
 This is an improvement because the dataset is unbalanced, with classes ranging from 13 to 108 examples. Weighted sampling gives rare classes more opportunities to be seen during training and is therefore aligned with the use of macro-F1 and balanced accuracy for evaluation.
 
 \subsection{Regularization And Stability}
-Label smoothing is at 0.1. This is a reasonable setting for a fine-grained visual classification problem in which many classes are similar. The training loop also applies gradient clipping, which adds another layer of optimization stability.
+The main improved run used label smoothing at 0.1, which is a reasonable setting for a fine-grained visual classification problem in which many classes are similar. In the latest Kaggle attempt, I reduced label smoothing to 0.05 so that the targets remained slightly less soft and the classifier could make sharper distinctions between visually similar coins. The training loop also applies gradient clipping, which adds another layer of optimization stability.
 
 \subsection{Reproducibility}
 
@@ -157,11 +154,19 @@ The current experimental protocol can be summarized as follows:
 \section{Results}
 The first try already documented a validation accuracy of 70.43\%, top-5 accuracy of 87.41\%, macro-F1 of 0.6650, and balanced accuracy of 68.03\%. It also documented a Kaggle result of 0.71918 public and 0.71606 private.
 
-The latest submission improved the Kaggle result significantly, reaching a public score of 0.82839 and a private score of 0.77067.
+The next submission improved the Kaggle result significantly, reaching a public score of 0.82839 and a private score of 0.77067. A final attempt then changed label smoothing from 0.1 to 0.05. That last submission obtained a public score of 0.81591 and a private score of 0.77379.
 
-Extending the training budget makes sense because transfer learning on a 315-class dataset may still need several epochs before the model fully adapts. Early stopping prevents this larger budget from turning into uncontrolled overfitting. Likewise, preserving weighted sampling and label smoothing is good for a fine-grained imbalanced classification problem.
+Extending the training budget makes sense because transfer learning on a 315-class dataset may still need several epochs before the model fully adapts. Early stopping prevents this larger budget from turning into uncontrolled overfitting. Likewise, preserving weighted sampling and tuning label smoothing are good choices for a fine-grained imbalanced classification problem.
 
-The gap between public and private scores also shows that the model still faces some generalization difficulty, which is expected in a task with many visually similar classes. Even so, the private score improvement compared with the earlier submission indicates that the updated training strategy was beneficial overall.
+The change from label smoothing 0.1 to 0.05 helps explain why the private score improved while the public score decreased. With lower smoothing, the model is encouraged to make slightly sharper predictions instead of spreading probability mass too uniformly across several similar classes. On a difficult coin-recognition task, that can help when the hidden private split contains examples that reward more decisive fine-grained discrimination.
+
+At the same time, the public leaderboard is based on a smaller visible subset and is therefore more sensitive to variance. Because of that, a hyperparameter change can slightly reduce the public score while still improving the private score that matters more for final ranking. This suggests that the 0.05 setting changed the calibration trade-off rather than simply making the model universally better or worse.
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.72\textwidth]{Screenshot 2026-03-22 at 16.30.02.png}
+    \caption{Kaggle submission table showing the last attempt with label smoothing reduced from 0.1 to 0.05. This run reached 0.77379 on the private leaderboard and 0.81591 on the public leaderboard.}
+\end{figure}
 
 \begin{figure}[!ht]
     \centering
@@ -179,9 +184,9 @@ Second, all images are resized to the AlexNet input size of 224 x 224. This is s
 
 
 \section{Conclusion}
-The main changes are the move from a short 5-epoch schedule to a longer two-stage training budget of up to 14 epochs, the addition of early stopping, the use of cosine annealing inside each training stage, better checkpoint handling, more careful experiment tracking, and a refined view of augmentation in which random erasing is disabled because it may hide useful coin details.
+The main changes are the move from a short 5-epoch schedule to a longer two-stage training budget of up to 14 epochs, the addition of early stopping, the use of cosine annealing inside each training stage, better checkpoint handling, more careful experiment tracking, and a refined view of regularization in which label smoothing was also tuned from 0.1 to 0.05 for the final Kaggle attempt.
 
-The latest Kaggle submission also supports the relevance of these changes, with a clear improvement from the earlier result to a public score of 0.82839 and a private score of 0.77067. This strengthens the argument that the system was not only modified, but genuinely improved.
+The Kaggle submissions also support the relevance of these changes. One run achieved the best public score at 0.82839, while the later label-smoothing adjustment achieved the best private score at 0.77379 with a public score of 0.81591. This strengthens the argument that the system was not only modified, but genuinely improved, even if different leaderboard splits favor slightly different calibration settings.
 
 
 \end{document}
