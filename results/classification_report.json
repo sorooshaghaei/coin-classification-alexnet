@@ -1,0 +1,1905 @@
+{
+  "1 2 Dollar,US Dollar,usa": {
+    "f1-score": 0.8,
+    "precision": 0.8,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "1 2 Dollar,taiwan Dollar,taiwan": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.75,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 2 Franc,Swiss Franc,switzerland": {
+    "f1-score": 0.4,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "1 2 New Sheqel,Israeli New Shekel,israel": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 4 Dollar,US Dollar,usa": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 Baht,Thai Baht,thailand": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "1 Cent,Australian dollar,australia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Cent,Canadian Dollar,canada": {
+    "f1-score": 0.9523809523809523,
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "1 Cent,Euro,spain": {
+    "f1-score": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "support": 5.0
+  },
+  "1 Cent,Singapore Dollar,singapore": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Cent,US Dollar,usa": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Centavo,Brazilian Real,brazil": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "1 Dime,US Dollar,usa": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "1 Dollar,Australian dollar,australia": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 Dollar,Canadian Dollar,canada": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "1 Dollar,Hong Kong dollar,hong_kong": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Dollar,New Zealand dollar,new_zealand": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Dollar,Singapore Dollar,singapore": {
+    "f1-score": 0.6,
+    "precision": 0.75,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "1 Dollar,US Dollar,usa": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "1 Dollar,taiwan Dollar,taiwan": {
+    "f1-score": 0.9090909090909091,
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "1 Euro,Euro,austria": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "1 Euro,Euro,belgium": {
+    "f1-score": 0.4,
+    "precision": 0.4,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "1 Euro,Euro,cyprus": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "1 Euro,Euro,estonia": {
+    "f1-score": 0.4,
+    "precision": 1.0,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "1 Euro,Euro,finland": {
+    "f1-score": 0.8888888888888888,
+    "precision": 1.0,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "1 Euro,Euro,france": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "1 Euro,Euro,germany": {
+    "f1-score": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "1 Euro,Euro,greece": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "1 Euro,Euro,ireland": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "1 Euro,Euro,italy": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "1 Euro,Euro,latvia": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "1 Euro,Euro,lithuania": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "1 Euro,Euro,luxembourg": {
+    "f1-score": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "1 Euro,Euro,malta": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "1 Euro,Euro,netherlands": {
+    "f1-score": 0.4,
+    "precision": 1.0,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "1 Euro,Euro,portugal": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "1 Euro,Euro,slovakia": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "1 Euro,Euro,slovenia": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "1 Euro,Euro,spain": {
+    "f1-score": 0.4,
+    "precision": 0.4444444444444444,
+    "recall": 0.36363636363636365,
+    "support": 11.0
+  },
+  "1 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Franc,Swiss Franc,switzerland": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "1 Grosz,Polish Zloty,poland": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Jiao,Chinese Yuan Renminbi,china": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "1 Kopek,Russian Ruble,russia": {
+    "f1-score": 0.5333333333333333,
+    "precision": 0.4444444444444444,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Koruna,Czech Koruna,czech_republic": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "1 Krona,Swedish Krona,sweden": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 Krone,Danish Krone,denmark": {
+    "f1-score": 0.4444444444444444,
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "1 Krone,Norwegian Krone,norway": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 Kroon,Estonian kroon,Estonia": {
+    "f1-score": 0.4,
+    "precision": 0.4,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "1 Kurus,Turkish Lira,turkey": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Lira,Turkish Lira,turkey": {
+    "f1-score": 0.7142857142857143,
+    "precision": 0.625,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 New Sheqel,Israeli New Shekel,israel": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "1 Paisa, Pakistan Rupee, Pakistan": {
+    "f1-score": 0.631578947368421,
+    "precision": 0.5454545454545454,
+    "recall": 0.75,
+    "support": 8.0
+  },
+  "1 Penny,British Pound,united_kingdom": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 Peso,Chilean Peso,chile": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "1 Peso,Mexican peso,mexico": {
+    "f1-score": 0.8333333333333334,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "1 Piso,Philipine peso,philippines": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.75,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Pound,British Pound,united_kingdom": {
+    "f1-score": 0.8695652173913043,
+    "precision": 0.8333333333333334,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "1 Rand,South African Rand,south_africa": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Rappen,Swiss Franc,switzerland": {
+    "f1-score": 0.8,
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 Real,Brazilian Real,brazil": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Ruble,Russian Ruble,russia": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Rupee,Indian Rupee,india": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 Rupee,Pakistan Rupee,pakistan": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 Satang,Thai Baht,thailand": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.5,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "1 Sen,Malaysian Ringgit,malaysia": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "1 Sentimo,Philipine peso,philippines": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "1 Won,Korean Won,south_korea": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "1 Yen,Japanese Yen,japan": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "1 Yuan,Chinese Yuan Renminbi,china": {
+    "f1-score": 0.9,
+    "precision": 1.0,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "1 Zloty,Polish Zloty,poland": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "1 euro Cent,Euro,spain": {
+    "f1-score": 0.2222222222222222,
+    "precision": 0.18181818181818182,
+    "recall": 0.2857142857142857,
+    "support": 7.0
+  },
+  "10 Agorot,Israeli New Shekel,israel": {
+    "f1-score": 0.875,
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "10 Baht,Thai Baht,thailand": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "10 Centavos,Brazilian Real,brazil": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Centavos,Mexican peso,mexico": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Cents,Australian dollar,australia": {
+    "f1-score": 0.75,
+    "precision": 0.6,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "10 Cents,Canadian Dollar,canada": {
+    "f1-score": 0.782608695652174,
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "10 Cents,Hong Kong dollar,hong_kong": {
+    "f1-score": 0.46153846153846156,
+    "precision": 0.5,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "10 Cents,New Zealand dollar,new_zealand": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "10 Cents,Singapore Dollar,singapore": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.5714285714285714,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "10 Cents,South African Rand,south_africa": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "10 Dollars,taiwan Dollar,taiwan": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Dram,Armenian dram,Armenia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "10 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "10 Groszy,Polish Zloty,poland": {
+    "f1-score": 0.6,
+    "precision": 1.0,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "10 Hellers,Czech Koruna,czech_republic": {
+    "f1-score": 0.7619047619047619,
+    "precision": 0.8,
+    "recall": 0.7272727272727273,
+    "support": 11.0
+  },
+  "10 Kopeks,Russian Ruble,russia": {
+    "f1-score": 0.46153846153846156,
+    "precision": 0.42857142857142855,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "10 Korun,Czech Koruna,czech_republic": {
+    "f1-score": 0.9523809523809523,
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "10 Kroner,Danish Krone,denmark": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.6,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "10 Kroner,Norwegian Krone,norway": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "10 Kronor,Swedish Krona,sweden": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.5555555555555556,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "10 Kurus,Turkish Lira,turkey": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 New Sheqalim,Israeli New Shekel,israel": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "10 Ore,Swedish Krona,sweden": {
+    "f1-score": 0.5,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "10 Paise, Pakistan Rupee, Pakistan": {
+    "f1-score": 0.9523809523809523,
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "support": 22.0
+  },
+  "10 Pence,British Pound,united_kingdom": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Pesos,Chilean Peso,chile": {
+    "f1-score": 0.8148148148148148,
+    "precision": 0.6875,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "10 Pesos,Mexican peso,mexico": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "10 Piso,Philipine peso,philippines": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "10 Rappen,Swiss Franc,switzerland": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.6,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "10 Rubles,Russian Ruble,russia": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "10 Rupees,Indian Rupee,india": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "10 Rupees,Pakistan Rupee,pakistan": {
+    "f1-score": 0.6,
+    "precision": 0.75,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "10 Satang,Thai Baht,thailand": {
+    "f1-score": 0.5333333333333333,
+    "precision": 0.4444444444444444,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Sen,Malaysian Ringgit,malaysia": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Senti,Estonian kroon,Estonia": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "10 Sentimos,Philipine peso,philippines": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "10 Won,Korean Won,south_korea": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "10 Yen,Japanese Yen,japan": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "10 euro Cent,Euro,spain": {
+    "f1-score": 0.4,
+    "precision": 0.3333333333333333,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "100 Dram,Armenian dram,Armenia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "100 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "100 Pesos,Chilean Peso,chile": {
+    "f1-score": 0.8,
+    "precision": 0.7142857142857143,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "100 Rupiah,Indonesian Rupiah,indonesia": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.75,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "100 Won,Korean Won,south_korea": {
+    "f1-score": 0.5,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "100 Yen,Japanese Yen,japan": {
+    "f1-score": 0.7142857142857143,
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "1000 Rupiah,Indonesian Rupiah,indonesia": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "2 Baht,Thai Baht,thailand": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "2 Cents,Australian dollar,australia": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "2 Cents,Euro,austria": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "2 Cents,Euro,belgium": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "2 Cents,Euro,cyprus": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Cents,Euro,finland": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "2 Cents,Euro,france": {
+    "f1-score": 0.9090909090909091,
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "2 Cents,Euro,germany": {
+    "f1-score": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Cents,Euro,ireland": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Cents,Euro,italy": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Cents,Euro,latvia": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Cents,Euro,lithuania": {
+    "f1-score": 0.36363636363636365,
+    "precision": 0.2857142857142857,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "2 Cents,Euro,luxembourg": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Cents,Euro,malta": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Cents,Euro,netherlands": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "2 Cents,Euro,portugal": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Cents,Euro,slovakia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Cents,Euro,spain": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.5,
+    "recall": 0.6,
+    "support": 5.0
+  },
+  "2 Dollars,Australian dollar,australia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "2 Dollars,Canadian Dollar,canada": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "2 Dollars,Hong Kong dollar,hong_kong": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "2 Dollars,New Zealand dollar,new_zealand": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Euro,Euro,austria": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "2 Euro,Euro,belgium": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "2 Euro,Euro,cyprus": {
+    "f1-score": 0.5,
+    "precision": 0.6666666666666666,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "2 Euro,Euro,estonia": {
+    "f1-score": 0.8,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "2 Euro,Euro,finland": {
+    "f1-score": 0.75,
+    "precision": 1.0,
+    "recall": 0.6,
+    "support": 5.0
+  },
+  "2 Euro,Euro,france": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Euro,Euro,germany": {
+    "f1-score": 0.75,
+    "precision": 1.0,
+    "recall": 0.6,
+    "support": 5.0
+  },
+  "2 Euro,Euro,greece": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Euro,Euro,ireland": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "2 Euro,Euro,italy": {
+    "f1-score": 0.9090909090909091,
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "2 Euro,Euro,latvia": {
+    "f1-score": 0.4444444444444444,
+    "precision": 0.5,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "2 Euro,Euro,lithuania": {
+    "f1-score": 0.2857142857142857,
+    "precision": 0.5,
+    "recall": 0.2,
+    "support": 5.0
+  },
+  "2 Euro,Euro,luxembourg": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "2 Euro,Euro,malta": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "2 Euro,Euro,netherlands": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.7142857142857143,
+    "recall": 1.0,
+    "support": 5.0
+  },
+  "2 Euro,Euro,portugal": {
+    "f1-score": 0.8888888888888888,
+    "precision": 1.0,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "2 Euro,Euro,slovakia": {
+    "f1-score": 0.8571428571428571,
+    "precision": 1.0,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "2 Euro,Euro,slovenia": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "2 Euro,Euro,spain": {
+    "f1-score": 0.6086956521739131,
+    "precision": 0.5833333333333334,
+    "recall": 0.6363636363636364,
+    "support": 11.0
+  },
+  "2 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.75,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 Francs,Swiss Franc,switzerland": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "2 Grosze,Polish Zloty,poland": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "2 Koruny,Czech Koruna,czech_republic": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "2 Kroner,Danish Krone,denmark": {
+    "f1-score": 0.5555555555555556,
+    "precision": 0.4166666666666667,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "2 Kronor,Swedish Krona,sweden": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "2 New Sheqalim,Israeli New Shekel,israel": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "2 Paise, Pakistan Rupee, Pakistan": {
+    "f1-score": 0.8235294117647058,
+    "precision": 0.8235294117647058,
+    "recall": 0.8235294117647058,
+    "support": 17.0
+  },
+  "2 Pence,British Pound,united_kingdom": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.8,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "2 Pesos,Mexican peso,mexico": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "2 Pounds,British Pound,united_kingdom": {
+    "f1-score": 0.9523809523809523,
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "2 Rand,South African Rand,south_africa": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "2 Rubles,Russian Ruble,russia": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "2 Rupees,Indian Rupee,india": {
+    "f1-score": 0.8333333333333334,
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "2 Rupees,Pakistan Rupee,pakistan": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "2 Zlote,Polish Zloty,poland": {
+    "f1-score": 0.6,
+    "precision": 0.75,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "2 euro Cent,Euro,spain": {
+    "f1-score": 0.26666666666666666,
+    "precision": 0.25,
+    "recall": 0.2857142857142857,
+    "support": 7.0
+  },
+  "20 Centavos,Mexican peso,mexico": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "20 Cents,Australian dollar,australia": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "20 Cents,Euro,austria": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "20 Cents,Euro,belgium": {
+    "f1-score": 0.2222222222222222,
+    "precision": 0.2,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "20 Cents,Euro,cyprus": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "20 Cents,Euro,finland": {
+    "f1-score": 0.25,
+    "precision": 0.25,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "20 Cents,Euro,france": {
+    "f1-score": 0.6,
+    "precision": 0.5,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "20 Cents,Euro,germany": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "20 Cents,Euro,greece": {
+    "f1-score": 0.8,
+    "precision": 0.8,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "20 Cents,Euro,ireland": {
+    "f1-score": 0.4444444444444444,
+    "precision": 0.4,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "20 Cents,Euro,italy": {
+    "f1-score": 0.5714285714285714,
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "20 Cents,Euro,latvia": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "20 Cents,Euro,lithuania": {
+    "f1-score": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "support": 4.0
+  },
+  "20 Cents,Euro,luxembourg": {
+    "f1-score": 0.8888888888888888,
+    "precision": 0.8,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "20 Cents,Euro,malta": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "20 Cents,Euro,netherlands": {
+    "f1-score": 0.42857142857142855,
+    "precision": 0.3,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "20 Cents,Euro,portugal": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "20 Cents,Euro,slovakia": {
+    "f1-score": 0.5,
+    "precision": 0.5,
+    "recall": 0.5,
+    "support": 4.0
+  },
+  "20 Cents,Euro,spain": {
+    "f1-score": 0.25,
+    "precision": 0.25,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "20 Cents,New Zealand dollar,new_zealand": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "20 Cents,Singapore Dollar,singapore": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "20 Cents,South African Rand,south_africa": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "20 Dollars,taiwan Dollar,taiwan": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "20 Dram,Armenian dram,Armenia": {
+    "f1-score": 0.972972972972973,
+    "precision": 0.9473684210526315,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "20 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.8,
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "20 Groszy,Polish Zloty,poland": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "20 Hellers,Czech Koruna,czech_republic": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "20 Korun,Czech Koruna,czech_republic": {
+    "f1-score": 0.7272727272727273,
+    "precision": 1.0,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "20 Kroner,Danish Krone,denmark": {
+    "f1-score": 0.5882352941176471,
+    "precision": 0.5,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "20 Kroner,Norwegian Krone,norway": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "20 Pence,British Pound,united_kingdom": {
+    "f1-score": 0.9565217391304348,
+    "precision": 0.9166666666666666,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "20 Rappen,Swiss Franc,switzerland": {
+    "f1-score": 0.6153846153846154,
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "20 Sen,Malaysian Ringgit,malaysia": {
+    "f1-score": 0.75,
+    "precision": 0.6,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "20 Senti,Estonian kroon,Estonia": {
+    "f1-score": 0.6,
+    "precision": 0.6,
+    "recall": 0.6,
+    "support": 5.0
+  },
+  "20 euro Cent,Euro,spain": {
+    "f1-score": 0.6,
+    "precision": 0.75,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "200 Dram,Armenian dram,Armenia": {
+    "f1-score": 0.972972972972973,
+    "precision": 0.9473684210526315,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "200 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "200 Rupiah,Indonesian Rupiah,indonesia": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "25 Centavos,Brazilian Real,brazil": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "25 Cents,Canadian Dollar,canada": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "25 Kurus,Turkish Lira,turkey": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "25 Ore,Danish Krone,denmark": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "25 Paise,Indian Rupee,india": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "25 Satang,Thai Baht,thailand": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "25 Sentimos,Philipine peso,philippines": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "5 Agorot,Israeli New Shekel,israel": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Baht,Thai Baht,thailand": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.75,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Centavos,Brazilian Real,brazil": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Centavos,Mexican peso,mexico": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Cents,Australian dollar,australia": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "5 Cents,Canadian Dollar,canada": {
+    "f1-score": 0.782608695652174,
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "5 Cents,New Zealand dollar,new_zealand": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Cents,Singapore Dollar,singapore": {
+    "f1-score": 0.75,
+    "precision": 0.6,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Cents,South African Rand,south_africa": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Cents,US Dollar,usa": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Dollars,Hong Kong dollar,hong_kong": {
+    "f1-score": 0.631578947368421,
+    "precision": 0.46153846153846156,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Dollars,Singapore Dollar,singapore": {
+    "f1-score": 0.4,
+    "precision": 0.5,
+    "recall": 0.3333333333333333,
+    "support": 3.0
+  },
+  "5 Dollars,taiwan Dollar,taiwan": {
+    "f1-score": 0.6153846153846154,
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Francs,Swiss Franc,switzerland": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "5 Groszy,Polish Zloty,poland": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Jiao,Chinese Yuan Renminbi,china": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "5 Kopeks,Russian Ruble,russia": {
+    "f1-score": 0.5,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "5 Korun,Czech Koruna,czech_republic": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 11.0
+  },
+  "5 Kroner,Danish Krone,denmark": {
+    "f1-score": 0.5,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "5 Kroner,Norwegian Krone,norway": {
+    "f1-score": 0.75,
+    "precision": 0.6,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Kronor,Swedish Krona,sweden": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Krooni,Estonian kroon,Estonia": {
+    "f1-score": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "support": 3.0
+  },
+  "5 Kurus,Turkish Lira,turkey": {
+    "f1-score": 0.7142857142857143,
+    "precision": 0.7142857142857143,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "5 New Sheqalim,Israeli New Shekel,israel": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Paise, Pakistan Rupee, Pakistan": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "support": 22.0
+  },
+  "5 Pence,British Pound,united_kingdom": {
+    "f1-score": 0.8,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Pesos,Chilean Peso,chile": {
+    "f1-score": 0.7777777777777778,
+    "precision": 1.0,
+    "recall": 0.6363636363636364,
+    "support": 11.0
+  },
+  "5 Pesos,Mexican peso,mexico": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.5,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Piso,Philipine peso,philippines": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "5 Rand,South African Rand,south_africa": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "5 Rappen,Swiss Franc,switzerland": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Rubles,Russian Ruble,russia": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.8333333333333334,
+    "recall": 0.7142857142857143,
+    "support": 7.0
+  },
+  "5 Rupees,Indian Rupee,india": {
+    "f1-score": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Rupees,Pakistan Rupee,pakistan": {
+    "f1-score": 0.875,
+    "precision": 0.7777777777777778,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "5 Satang,Thai Baht,thailand": {
+    "f1-score": 0.6153846153846154,
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Sen,Malaysian Ringgit,malaysia": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "5 Senti,Estonian kroon,Estonia": {
+    "f1-score": 0.5,
+    "precision": 0.4,
+    "recall": 0.6666666666666666,
+    "support": 3.0
+  },
+  "5 Sentimos,Philipine peso,philippines": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "5 Won,Korean Won,south_korea": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "5 Yen,Japanese Yen,japan": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.8333333333333334,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "5 Zlotych,Polish Zloty,poland": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "5 euro Cent,Euro,spain": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "50 Centavos,Mexican peso,mexico": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "50 Cents,Australian dollar,australia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "50 Cents,Canadian Dollar,canada": {
+    "f1-score": 0.9090909090909091,
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "50 Cents,Euro,austria": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 4.0
+  },
+  "50 Cents,Euro,belgium": {
+    "f1-score": 0.3333333333333333,
+    "precision": 0.5,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "50 Cents,Euro,cyprus": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "50 Cents,Euro,finland": {
+    "f1-score": 0.4,
+    "precision": 0.4,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "50 Cents,Euro,france": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Cents,Euro,germany": {
+    "f1-score": 0.6,
+    "precision": 0.5,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "50 Cents,Euro,greece": {
+    "f1-score": 0.8,
+    "precision": 0.8,
+    "recall": 0.8,
+    "support": 5.0
+  },
+  "50 Cents,Euro,ireland": {
+    "f1-score": 0.3333333333333333,
+    "precision": 0.5,
+    "recall": 0.25,
+    "support": 4.0
+  },
+  "50 Cents,Euro,italy": {
+    "f1-score": 0.6666666666666666,
+    "precision": 1.0,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "50 Cents,Euro,latvia": {
+    "f1-score": 0.75,
+    "precision": 0.75,
+    "recall": 0.75,
+    "support": 4.0
+  },
+  "50 Cents,Euro,lithuania": {
+    "f1-score": 0.3076923076923077,
+    "precision": 0.25,
+    "recall": 0.4,
+    "support": 5.0
+  },
+  "50 Cents,Euro,luxembourg": {
+    "f1-score": 0.2857142857142857,
+    "precision": 0.5,
+    "recall": 0.2,
+    "support": 5.0
+  },
+  "50 Cents,Euro,malta": {
+    "f1-score": 0.4444444444444444,
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "50 Cents,Euro,netherlands": {
+    "f1-score": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "support": 6.0
+  },
+  "50 Cents,Euro,portugal": {
+    "f1-score": 0.4444444444444444,
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "50 Cents,Euro,slovakia": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.6,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "50 Cents,Euro,spain": {
+    "f1-score": 0.42105263157894735,
+    "precision": 0.3333333333333333,
+    "recall": 0.5714285714285714,
+    "support": 7.0
+  },
+  "50 Cents,Hong Kong dollar,hong_kong": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 Cents,New Zealand dollar,new_zealand": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 Cents,Singapore Dollar,singapore": {
+    "f1-score": 0.7272727272727273,
+    "precision": 0.8,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Cents,South African Rand,south_africa": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 Dollars,taiwan Dollar,taiwan": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Dram,Armenian dram,Armenia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "50 Forint,Hungarian Forint,hungary": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 Groszy,Polish Zloty,poland": {
+    "f1-score": 0.6153846153846154,
+    "precision": 0.5714285714285714,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Hellers,Czech Koruna,czech_republic": {
+    "f1-score": 0.8333333333333334,
+    "precision": 0.7692307692307693,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "50 Kopeks,Russian Ruble,russia": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 Korun,Czech Koruna,czech_republic": {
+    "f1-score": 0.9333333333333333,
+    "precision": 0.875,
+    "recall": 1.0,
+    "support": 7.0
+  },
+  "50 Kurus,Turkish Lira,turkey": {
+    "f1-score": 0.7058823529411765,
+    "precision": 0.6,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "50 Ore,Danish Krone,denmark": {
+    "f1-score": 0.9230769230769231,
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "50 Ore,Norwegian Krone,norway": {
+    "f1-score": 0.8,
+    "precision": 0.75,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "50 Ore,Swedish Krona,sweden": {
+    "f1-score": 0.5454545454545454,
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "50 Paise, Pakistan Rupee, Pakistan": {
+    "f1-score": 0.9285714285714286,
+    "precision": 0.8666666666666667,
+    "recall": 1.0,
+    "support": 13.0
+  },
+  "50 Paise,Indian Rupee,india": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.8571428571428571,
+    "recall": 0.8571428571428571,
+    "support": 7.0
+  },
+  "50 Pence,British Pound,united_kingdom": {
+    "f1-score": 0.8571428571428571,
+    "precision": 0.9,
+    "recall": 0.8181818181818182,
+    "support": 11.0
+  },
+  "50 Pesos,Chilean Peso,chile": {
+    "f1-score": 0.9523809523809523,
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "50 Rupiah,Indonesian Rupiah,indonesia": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Satang,Thai Baht,thailand": {
+    "f1-score": 0.6,
+    "precision": 0.75,
+    "recall": 0.5,
+    "support": 6.0
+  },
+  "50 Sen,Malaysian Ringgit,malaysia": {
+    "f1-score": 0.5,
+    "precision": 1.0,
+    "recall": 0.3333333333333333,
+    "support": 6.0
+  },
+  "50 Senti,Estonian kroon,Estonia": {
+    "f1-score": 0.5333333333333333,
+    "precision": 0.4444444444444444,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Won,Korean Won,south_korea": {
+    "f1-score": 0.8,
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "support": 6.0
+  },
+  "50 Yen,Japanese Yen,japan": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "50 euro Cent,Euro,spain": {
+    "f1-score": 0.4,
+    "precision": 0.375,
+    "recall": 0.42857142857142855,
+    "support": 7.0
+  },
+  "500 Dram,Armenian dram,Armenia": {
+    "f1-score": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "support": 18.0
+  },
+  "500 Pesos,Chilean Peso,chile": {
+    "f1-score": 0.9090909090909091,
+    "precision": 0.9090909090909091,
+    "recall": 0.9090909090909091,
+    "support": 11.0
+  },
+  "500 Rupiah,Indonesian Rupiah,indonesia": {
+    "f1-score": 0.9230769230769231,
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "support": 6.0
+  },
+  "500 Won,Korean Won,south_korea": {
+    "f1-score": 0.7692307692307693,
+    "precision": 0.7142857142857143,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "500 Yen,Japanese Yen,japan": {
+    "f1-score": 0.9090909090909091,
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "support": 6.0
+  },
+  "accuracy": 0.7829232995658466,
+  "macro avg": {
+    "f1-score": 0.7530399331455894,
+    "precision": 0.7835060171507909,
+    "recall": 0.7570574492423231,
+    "support": 2073.0
+  },
+  "weighted avg": {
+    "f1-score": 0.7798456985699268,
+    "precision": 0.8061317496508676,
+    "recall": 0.7829232995658466,
+    "support": 2073.0
+  }
+}

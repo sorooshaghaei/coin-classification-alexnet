@@ -1,0 +1,13 @@
+{
+  "best_val_accuracy_during_training": 0.7829232995658466,
+  "final_validation": {
+    "accuracy": 0.7829232995658466,
+    "balanced_accuracy": 0.7570574492423231,
+    "loss": 1.4489821085563073,
+    "macro_f1": 0.7530399331455894,
+    "top5": 0.9204052098408104
+  },
+  "mode": "improved",
+  "transform_profile": "improved",
+  "use_weighted_sampler": true
+}

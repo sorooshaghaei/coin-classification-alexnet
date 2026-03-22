@@ -1,0 +1,10 @@
+train_rows=10365
+test_rows=1282
+num_classes=315
+min_class_count=13
+max_class_count=108
+median_class_count=32.0
+mean_class_count=32.90
+width_mean=458.14
+height_mean=446.03
+invalid_files=10211,11270,11353
