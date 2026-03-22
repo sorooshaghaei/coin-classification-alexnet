@@ -35,7 +35,9 @@
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \newcommand{\code}[1]{\texttt{#1}}
 
-\title{\textbf{Coin Classification with AlexNet}\\[0.4em]}
+\title{\textbf{Coin Classification with AlexNet}\\[0.4em]
+The code and experiments are in the GitHub repository: \href{https://github.com/sorooshaghaei/coin-classification-alexnet}{sorooshaghaei/coin-classification-alexnet}.
+}
 
 \author{Mehdi AGHAEI - VMI}
 \date{March 22, 2026}
@@ -187,6 +189,8 @@ Second, all images are resized to the AlexNet input size of 224 x 224. This is s
 The main changes are the move from a short 5-epoch schedule to a longer two-stage training budget of up to 14 epochs, the addition of early stopping, the use of cosine annealing inside each training stage, better checkpoint handling, more careful experiment tracking, and a refined view of regularization in which label smoothing was also tuned from 0.1 to 0.05 for the final Kaggle attempt.
 
 The Kaggle submissions also support the relevance of these changes. One run achieved the best public score at 0.82839, while the later label-smoothing adjustment achieved the best private score at 0.77379 with a public score of 0.81591. This strengthens the argument that the system was not only modified, but genuinely improved, even if different leaderboard splits favor slightly different calibration settings.
+
+The full code and experiment scripts live in the GitHub repository: \href{https://github.com/sorooshaghaei/coin-classification-alexnet}{sorooshaghaei/coin-classification-alexnet}.
 
 
 \end{document}
